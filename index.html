@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+
+                <img class="header__img" src="images/book.png" alt="">
+
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li class="header__item">
+                            <a href="" class="header__link">Главная</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="" class="header__link">Топ</a>
+                            <div class="delete"></div>
+                        </li>
+                        <li class="header__item">
+                            <a href="" class="header__link">Список</a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
+    </header>
+
+    <section class="top">
+        <div class="container">
+            <div class="top__bg">
+                <div class="top__inner">
+                    <div class="top__genre">Эрик Фримен, Элизабет Робсон</div>
+                    <div class="top__name">
+                        Изучаем программирование <br>
+                        на <span>JavaScript</span>
+                    </div>
+                    <div class="top__descr">
+                        Вы готовы сделать шаг вперед в веб-программировании и перейти от верстки в HTML и CSS к созданию
+                        полноценных динамических страниц? Тогда пришло время познакомиться с самым "горячим" языком
+                        программирования - JavaScript!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bot">
+        <div class="container">
+            <div class="bot__inner">
+                <div class="bot__right">
+                    <div class="bot__title">
+                        Прочитанные книги
+                    </div>
+                    <ul class="bot__list">
+                        <li class="bot__item">
+                            JavaScript на примерах
+                            <div class="bot__delete"></div>
+                        </li>
+                        <li class="bot__item">
+                            Грокаем Алгоритмы
+                            <div class="bot__delete"></div>
+                        </li>
+                        <li class="bot__item">
+                            Подробное руководство
+                            <div class="bot__delete"></div>
+                        </li>
+                        <li class="bot__item">
+                            Современный учебник JavaScript
+                            <div class="bot__delete"></div>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <form class="bot__left">
+                        <div class="bot__left-add">Добавить новую книгу</div>
+                        <div class="bot__left-name">Введите название</div>
+                        <span>Сделать его любимым?</span>
+                        <input type="checkbox">
+                        <span class="yes">Да!</span>
+                        <input class="bot__input" type="text" placeholder="Что уже прочитано...?">
+                        <button class="bot__btn">Подтвердить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/main.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
